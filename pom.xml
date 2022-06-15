@@ -50,6 +50,20 @@
 		<url>https://github.com/LandmarkTechnology/maven-standalone-application/issues</url>
 	</issueManagement>
 
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>ACADA Learning Releases Nexus Repository</name>
+	      <url>http://172.31.3.67:8000/repository/standalone-app-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>ACADA Learning Snapshot Nexus Repository </name>
+	      <url>http://172.31.3.67:8000/repository/standalone-app-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	
 	<build>
 	  <plugins>
